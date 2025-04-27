@@ -1,0 +1,22 @@
+in: |
+  {{ $keys := strings.Split "," .Env.FLAVOR }}
+  {{ $flavors := coll.Pick $keys (ds "palette") | default (ds "palette") }}
+  {{ $theme := "TokyoNight" }}
+  {{ range $_, $flavor := $flavors }}
+    {{ range $accentName, $accent := $flavor.colors.accent }}
+      {{ $filePath := print "themes" "/" $theme "-" $flavor.name "-" ($accentName | title) "/" $theme "-" $flavor.name "-" ($accentName | title) }}
+      {{ tmpl.Exec "kvantum" (coll.Dict "accentName" ($accentName | title) "flavor" $flavor.name "accent" $accent "colors" $flavor.colors) | file.Write (print $filePath ".kvconfig") }}
+      {{ tmpl.Exec "svg" (coll.Dict "accentName" ($accentName | title) "flavor" $flavor.name "accent" $accent "colors" $flavor.colors) | file.Write (print $filePath ".svg") }}
+    {{ end }}
+  {{ end }}
+
+missingKey: zero
+datasources:
+  palette:
+    url: git+https://github.com/Wizarsy/tokyonight-palette//palette.json
+
+templates:
+  kvantum:
+    url: templates/kvantum.tmpl
+  svg:
+    url: templates/svg.tmpl
