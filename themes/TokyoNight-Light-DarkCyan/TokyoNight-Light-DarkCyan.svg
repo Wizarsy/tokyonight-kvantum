@@ -203,7 +203,7 @@
  <g id="itemview-toggled-right" transform="matrix(0.44036689,0,0,-1.999996,532.87829,2181.7643)">
   <rect style="opacity:0.2;fill:#006c86" width="2" height="21" x="-664.81" y="789.58"/>
  </g>
- <rect id="itemview-toggled" style="opacity:0.2;fill:#006c86" width="46.239" height="42" x="193.88" y="-602.6" transform="scale(1,-1)"/>
+ <rect id="itemview-toggled" style="opacity:0.2;fill:#a9b1d6" width="46.239" height="42" x="193.88" y="-602.6" transform="scale(1,-1)"/>
  <path id="itemview-toggled-topleft" style="opacity:0.2;fill:#006c86" d="m 193.88074,556.99973 c -0.48641,0 -0.88073,1.0745 -0.88073,2.4 v 1.2 h 0.88073 v -1.2 z"/>
  <path id="itemview-toggled-bottomright" style="opacity:0.2;fill:#006c86" d="m 241,602.59961 a 0.88073379,2.3999989 0 0 1 -0.88074,2.4 v -2.4 z"/>
  <path id="itemview-toggled-bottomleft" style="opacity:0.2;fill:#006c86" d="m 193,602.59961 a 0.88073379,2.3999989 0 0 0 0.88074,2.4 v -2.4 z"/>

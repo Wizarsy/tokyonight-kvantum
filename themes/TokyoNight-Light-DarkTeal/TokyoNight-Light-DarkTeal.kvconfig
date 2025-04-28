@@ -87,7 +87,7 @@ window.text.color=#40434f
 button.text.color=#40434f
 disabled.text.color=#6c6e75
 tooltip.text.color=#40434f
-highlight.text.color=#a9b1d6
+highlight.text.color=#6c6e75
 link.color=#8c4351
 link.visited.color=#2959aa
 
@@ -127,7 +127,7 @@ interior.element=button
 frame.element=button
 text.normal.color=#40434f
 text.focus.color=#40434f
-text.press.color=#a9b1d6
+text.press.color=#40434f
 text.toggle.color=#a9b1d6
 
 [PanelButtonTool]
