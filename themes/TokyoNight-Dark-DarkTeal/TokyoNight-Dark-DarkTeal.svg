@@ -203,7 +203,7 @@
  <g id="itemview-toggled-right" transform="matrix(0.44036689,0,0,-1.999996,532.87829,2181.7643)">
   <rect style="opacity:0.2;fill:#73daca" width="2" height="21" x="-664.81" y="789.58"/>
  </g>
- <rect id="itemview-toggled" style="opacity:0.2;fill:#414868" width="46.239" height="42" x="193.88" y="-602.6" transform="scale(1,-1)"/>
+ <rect id="itemview-toggled" style="opacity:0.2;fill:#1a1b26" width="46.239" height="42" x="193.88" y="-602.6" transform="scale(1,-1)"/>
  <path id="itemview-toggled-topleft" style="opacity:0.2;fill:#73daca" d="m 193.88074,556.99973 c -0.48641,0 -0.88073,1.0745 -0.88073,2.4 v 1.2 h 0.88073 v -1.2 z"/>
  <path id="itemview-toggled-bottomright" style="opacity:0.2;fill:#73daca" d="m 241,602.59961 a 0.88073379,2.3999989 0 0 1 -0.88074,2.4 v -2.4 z"/>
  <path id="itemview-toggled-bottomleft" style="opacity:0.2;fill:#73daca" d="m 193,602.59961 a 0.88073379,2.3999989 0 0 0 0.88074,2.4 v -2.4 z"/>
@@ -297,8 +297,8 @@
   <path style="fill:#414868;fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
  </g>
  <g id="scrollbarslider-normal-left" transform="matrix(-0.75,0,0,1,230.75,461.99976)">
-  <rect style="opacity:0;fill:#a9b1d6" width="1" height="10" x="19" y="20" transform="matrix(-1.3333333,0,0,1,39.666667,-13)"/>
   <path style="fill:#414868;fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
+  <rect style="opacity:0;fill:#a9b1d6" width="1" height="10" x="19" y="20" transform="matrix(-1.3333333,0,0,1,39.666667,-13)"/>
  </g>
  <g id="scrollbarslider-normal-topleft" transform="matrix(-0.75,0,0,0.75,230.75,462.74976)">
   <rect style="opacity:0;fill:#a9b1d6" width="4" height="4" x="19" y="15" transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-18.333333)"/>
@@ -322,8 +322,8 @@
   <rect style="opacity:0;fill:#a9b1d6" width="1" height="10" x="29" y="42" transform="matrix(1.3333333,0,0,1,-25.666667,-35)"/>
  </g>
  <g id="scrollbarslider-focused-topright" transform="matrix(0.75,0,0,0.75,235.25,462.74976)">
-  <path style="fill:#565f89;fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
   <rect style="opacity:0;fill:#a9b1d6" width="4" height="4" x="26" y="37" transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-47.666667)"/>
+  <path style="fill:#565f89;fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
  </g>
  <g id="scrollbarslider-focused-bottomright" style="fill:#a9b1d6" transform="matrix(0.75,0,0,0.75,235.25,467.24976)">
   <path style="fill:#565f89;fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
@@ -334,12 +334,12 @@
   <rect style="opacity:0;fill:#a9b1d6" width="1" height="10" x="19" y="42" transform="matrix(-1.3333333,0,0,1,39.666667,-35)"/>
  </g>
  <g id="scrollbarslider-focused-topleft" transform="matrix(-0.75,0,0,0.75,245.75,462.74976)">
-  <path style="fill:#565f89;fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
   <rect style="opacity:0;fill:#a9b1d6" width="4" height="4" x="19" y="37" transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-47.666667)"/>
+  <path style="fill:#565f89;fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
  </g>
  <g id="scrollbarslider-focused-bottomleft" transform="matrix(-0.75,0,0,0.75,245.75,467.24976)">
-  <path style="fill:#565f89;fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
   <rect style="opacity:0;fill:#a9b1d6" width="4" height="4" x="19" y="53" transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-53.666667)"/>
+  <path style="fill:#565f89;fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
  </g>
  <g id="scrollbarslider-focused-top" transform="matrix(0,-0.75,-0.1,0,241.7,474.74976)">
   <rect style="opacity:0;fill:#a9b1d6" width="1" height="4" x="24" y="37" transform="matrix(0,-10,-1.3333333,0,63.666667,257)"/>
@@ -385,34 +385,42 @@
  <rect id="progress-pattern-normal" style="fill:#73daca" width="30" height="30" x="419" y="13"/>
  <g id="progress-pattern-normal-left" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-65" transform="rotate(90)"/>
+  <path style="fill:#1a1b26" d="m 63,98 v 30 h 1 V 98 Z" />
   <path style="fill:#73daca" d="m 64,98 v 30 h 1 V 98 Z"/>
  </g>
  <g id="progress-pattern-normal-topleft" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="63" y="96"/>
+  <path style="fill:#1a1b26" d="m 65,96 c -0.17,0 -0.33,0 -0.58,0.08 -0.24,0.08 -0.56,0.25 -0.81,0.5 -0.25,0.25 -0.43,0.58 -0.52,0.83 C 63,97.67 63,97.83 63,98 h 1 c 0,-0.5 0.51,-1 1,-1 z"/>
   <path style="fill:#73daca" d="m 65,97 c -0.497258,0 -1,0.51007 -1,1 h 1 z"/>
  </g>
  <g id="progress-pattern-normal-topright" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="95" y="96"/>
+  <path style="fill:#1a1b26" d="m 97,98 c 0,-0.17 -0,-0.33 -0.08,-0.58 -0.08,-0.24 -0.25,-0.56 -0.5,-0.81 C 96.17,96.36 95.83,96.18 95.58,96.09 95.33,96 95.17,96 95,96 v 1 c 0.5,0 1,0.51 1,1 z"/>
   <path style="fill:#73daca" d="m 95,97 c 0.49726,0 1,0.51007 1,1 h -1 z"/>
  </g>
  <g id="progress-pattern-normal-right" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-97" transform="rotate(90)"/>
+  <path style="fill:#1a1b26" d="m 97,98 v 30 H 96 V 98 Z" />
   <path style="fill:#73daca" d="m 96,98 v 30 H 95 V 98 Z"/>
  </g>
  <g id="progress-pattern-normal-top" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="65" y="96"/>
+  <rect style="fill:#1a1b26" width="30" height="1" x="65" y="96" />
   <rect style="fill:#73daca" width="30" height="1" x="65" y="97"/>
  </g>
  <g id="progress-pattern-normal-bottomleft" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="63" y="128"/>
+  <path style="fill:#1a1b26" d="m 63,128 c 0,0.17 0,0.33 0.08,0.58 0.08,0.24 0.25,0.56 0.5,0.81 0.25,0.25 0.58,0.43 0.83,0.52 0.25,0.09 0.42,0.09 0.58,0.09 v -1 c -0.5,0 -1,-0.51 -1,-1 z"/>
   <path style="fill:#73daca" d="m 65,129 c -0.49726,0 -1,-0.51007 -1,-1 h 1 z"/>
  </g>
  <g id="progress-pattern-normal-bottomright" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="95" y="128"/>
+  <path style="fill:#1a1b26" d="m 95,130 c 0.17,0 0.33,-0 0.58,-0.08 0.24,-0.08 0.56,-0.25 0.81,-0.5 0.25,-0.25 0.43,-0.58 0.52,-0.83 C 97,128.33 97,128.17 97,128 h -1 c 0,0.5 -0.51,1 -1,1 z"/>
   <path style="fill:#73daca" d="m 95,129 c 0.49726,0 1,-0.51007 1,-1 h -1 z"/>
  </g>
  <g id="progress-pattern-normal-bottom" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="65" y="128"/>
+  <rect style="fill:#1a1b26" width="30" height="1" x="65" y="-130" transform="scale(1,-1)" />
   <rect style="fill:#73daca" width="30" height="1" x="65" y="-129" transform="scale(1,-1)"/>
  </g>
  <rect id="progress-normal" style="opacity:0.3" width="30" height="30" x="378" y="13"/>

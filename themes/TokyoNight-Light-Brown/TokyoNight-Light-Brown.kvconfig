@@ -127,7 +127,7 @@ interior.element=button
 frame.element=button
 text.normal.color=#40434f
 text.focus.color=#40434f
-text.press.color=#40434f
+text.press.color=#e6e7ed
 text.toggle.color=#a9b1d6
 
 [PanelButtonTool]
