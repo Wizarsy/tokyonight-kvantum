@@ -385,43 +385,43 @@
  <rect id="progress-pattern-normal" style="fill:#73daca" width="30" height="30" x="419" y="13"/>
  <g id="progress-pattern-normal-left" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-65" transform="rotate(90)"/>
-  <path style="fill:#1a1b26" d="m 63,98 v 30 h 1 V 98 Z" />
   <path style="fill:#73daca" d="m 64,98 v 30 h 1 V 98 Z"/>
+  <path style="opacity:0.2" d="m 64,98 v 30 h 0.5 V 98 Z" />
  </g>
  <g id="progress-pattern-normal-topleft" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="63" y="96"/>
-  <path style="fill:#1a1b26" d="m 65,96 c -0.17,0 -0.33,0 -0.58,0.08 -0.24,0.08 -0.56,0.25 -0.81,0.5 -0.25,0.25 -0.43,0.58 -0.52,0.83 C 63,97.67 63,97.83 63,98 h 1 c 0,-0.5 0.51,-1 1,-1 z"/>
   <path style="fill:#73daca" d="m 65,97 c -0.497258,0 -1,0.51007 -1,1 h 1 z"/>
+  <path style="opacity:0.2" d="m 65,97.003906 c -0.48938,0 -0.99886,0.501333 -1,0.998047 h 0.5 C 64.5,97.751115 64.75501,97.5 65,97.5 Z"/>
  </g>
  <g id="progress-pattern-normal-topright" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="95" y="96"/>
-  <path style="fill:#1a1b26" d="m 97,98 c 0,-0.17 -0,-0.33 -0.08,-0.58 -0.08,-0.24 -0.25,-0.56 -0.5,-0.81 C 96.17,96.36 95.83,96.18 95.58,96.09 95.33,96 95.17,96 95,96 v 1 c 0.5,0 1,0.51 1,1 z"/>
   <path style="fill:#73daca" d="m 95,97 c 0.49726,0 1,0.51007 1,1 h -1 z"/>
+  <path style="opacity:0.2" d="m 95.998047,98 c 0,-0.48938 -0.501333,-0.99886 -0.998047,-1 v 0.5 c 0.250838,0 0.501953,0.25501 0.501953,0.5 z"/>
  </g>
  <g id="progress-pattern-normal-right" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-97" transform="rotate(90)"/>
-  <path style="fill:#1a1b26" d="m 97,98 v 30 H 96 V 98 Z" />
   <path style="fill:#73daca" d="m 96,98 v 30 H 95 V 98 Z"/>
+  <path style="opacity:0.2" d="m 96,98 v 30 H 95.5 V 98 Z" />
  </g>
  <g id="progress-pattern-normal-top" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="65" y="96"/>
-  <rect style="fill:#1a1b26" width="30" height="1" x="65" y="96" />
   <rect style="fill:#73daca" width="30" height="1" x="65" y="97"/>
+  <rect style="opacity:0.2" width="30" height="0.5" x="65" y="97" />
  </g>
  <g id="progress-pattern-normal-bottomleft" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="63" y="128"/>
-  <path style="fill:#1a1b26" d="m 63,128 c 0,0.17 0,0.33 0.08,0.58 0.08,0.24 0.25,0.56 0.5,0.81 0.25,0.25 0.58,0.43 0.83,0.52 0.25,0.09 0.42,0.09 0.58,0.09 v -1 c -0.5,0 -1,-0.51 -1,-1 z"/>
   <path style="fill:#73daca" d="m 65,129 c -0.49726,0 -1,-0.51007 -1,-1 h 1 z"/>
+  <path style="opacity:0.2" d="m 64.001953,128 c 0,0.48938 0.501333,0.99886 0.998047,1 v -0.5 c -0.250838,0 -0.501953,-0.25501 -0.501953,-0.5 z"/>
  </g>
  <g id="progress-pattern-normal-bottomright" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="2" height="2" x="95" y="128"/>
-  <path style="fill:#1a1b26" d="m 95,130 c 0.17,0 0.33,-0 0.58,-0.08 0.24,-0.08 0.56,-0.25 0.81,-0.5 0.25,-0.25 0.43,-0.58 0.52,-0.83 C 97,128.33 97,128.17 97,128 h -1 c 0,0.5 -0.51,1 -1,1 z"/>
   <path style="fill:#73daca" d="m 95,129 c 0.49726,0 1,-0.51007 1,-1 h -1 z"/>
+  <path style="opacity:0.2" d="m 95,128.99804 c 0.48938,0 0.99885,-0.50133 1,-0.99804 h -0.5 c 0,0.25084 -0.25501,0.50195 -0.5,0.50195 z"/>
  </g>
  <g id="progress-pattern-normal-bottom" transform="translate(354,-85.000244)">
   <rect style="opacity:0.00100002" width="30" height="2" x="65" y="128"/>
-  <rect style="fill:#1a1b26" width="30" height="1" x="65" y="-130" transform="scale(1,-1)" />
   <rect style="fill:#73daca" width="30" height="1" x="65" y="-129" transform="scale(1,-1)"/>
+  <rect style="opacity:0.2" width="30" height="0.5" x="65" y="-129" transform="scale(1,-1)" />
  </g>
  <rect id="progress-normal" style="opacity:0.3" width="30" height="30" x="378" y="13"/>
  <g id="progress-normal-left" transform="translate(313,-85.000244)">

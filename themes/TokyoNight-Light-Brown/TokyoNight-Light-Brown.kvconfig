@@ -87,7 +87,7 @@ window.text.color=#40434f
 button.text.color=#40434f
 disabled.text.color=#6c6e75
 tooltip.text.color=#40434f
-highlight.text.color=#6c6e75
+highlight.text.color=#2959aa
 link.color=#8c4351
 link.visited.color=#2959aa
 
